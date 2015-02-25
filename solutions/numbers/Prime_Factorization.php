@@ -69,6 +69,7 @@ function getPrimeFactors($n) {
 
 	return $factors;
 }
+
 $n = 0;
 while ('q' !== $n) {
 	$n = readline("Enter an integer > 1 to to list it's prime factors ('q' to quit): ");
