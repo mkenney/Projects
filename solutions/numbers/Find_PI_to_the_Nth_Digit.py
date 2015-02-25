@@ -27,7 +27,12 @@ def printPiToN(digits):
 	print "\n"+`digits - 1`+" digits of Pi:"
 	print pi_10k[:digits]
 
-printPiToN(sys.argv[1])
+
+if len(sys.argv) < 2:
+	n = raw_input("How many digits if Pi would you like to display (max 10000)? ")
+	printPiToN(n)
+else:
+	printPiToN(sys.argv[1])
 
 
 """
@@ -85,3 +90,4 @@ more stuff for fun...
 
 print "Calculate 15 accurate decimals of Pi using the Spigot Algorithm (requires 51 iterations)"
 calcPiSpigot(51)
+print "    accurate to ^"
