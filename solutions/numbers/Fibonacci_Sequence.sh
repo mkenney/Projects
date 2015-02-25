@@ -7,10 +7,10 @@
 #
 
 if [ "" = "$1" ]; then
-    echo -e "How many Fibonacci numbers do you want? \c"
-    read iterations
+	echo -e "How many Fibonacci numbers do you want? \c"
+	read iterations
 else
-    iterations=$1
+	iterations=$1
 fi
 
 cur=1
@@ -18,8 +18,8 @@ last=1
 
 for a in `seq 0 ${iterations}`;
 do
-    echo $cur
-    tmp=$cur
-    cur=$(($cur + $last))
-    last=$tmp
+	echo $cur
+	tmp=$cur
+	cur=$(($cur + $last))
+	last=$tmp
 done

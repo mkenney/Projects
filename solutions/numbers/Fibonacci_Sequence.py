@@ -9,15 +9,15 @@ number or to the Nth number.
 import sys
 
 if (len(sys.argv) < 2):
-    iterations = int(input("How many Fibonacci numbers do you want? "))
+	iterations = int(input("How many Fibonacci numbers do you want? "))
 else:
-    iterations = int(sys.argv[1])
+	iterations = int(sys.argv[1])
 
 cur = 1;
 last = 1;
 
 for a in range(0, iterations):
-    print cur
-    tmp = cur
-    cur = cur + last
-    last = tmp
+	print cur
+	tmp = cur
+	cur = cur + last
+	last = tmp
