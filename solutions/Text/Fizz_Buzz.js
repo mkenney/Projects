@@ -16,7 +16,7 @@ for (var a = 1; a < 101; a++) {
 		process.stdout.write("Fizz");
 	}
 	if (0 == a % 5) {
-		process.stdout.write("Buzz")
+		process.stdout.write("Buzz");
 	}
-	process.stdout.write("\n")
+	process.stdout.write("\n");
 }
