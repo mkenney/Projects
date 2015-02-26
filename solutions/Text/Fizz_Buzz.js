@@ -9,13 +9,13 @@
  */
 
 for (var a = 1; a < 101; a++) {
-	if (0 != (a % 3) && 0 != (a % 5)) {
+	if (0 !== (a % 3) && 0 !== (a % 5)) {
 		process.stdout.write(a.toString());
 	}
-	if (0 == a % 3) {
+	if (0 === a % 3) {
 		process.stdout.write("Fizz");
 	}
-	if (0 == a % 5) {
+	if (0 === a % 5) {
 		process.stdout.write("Buzz");
 	}
 	process.stdout.write("\n");
