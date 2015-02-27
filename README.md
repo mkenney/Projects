@@ -1,22 +1,26 @@
+_This looks like fun so I'm going to try knocking out a few in a bunch of diffferent languages - MK_
+
 Mega Project List
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/themkenneygoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 
 To get started, simply fork this repo.
 
-## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+## [CONTRIBUTING](https://github.com/themkenneygoel/Projects/blob/master/CONTRIBUTING.md)
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
+See ways of [contributing](https://github.com/themkenneygoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/themkenneygoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
 
 
-## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
+## [Solutions](https://github.com/themkenneygoel/Projects-Solutions)
 
-You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
+You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/themkenneygoel/Projects-Solutions).
+
+I put links my solutions below or you can look in the [solutions/](https://github.com/mkenney/Projects/tree/master/solutions) folder - MK
 
 ## Credits
 
-This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
+This repo was compiled by [mkenney Goel](http://twitter.com/mkenneygoel).
 
 Problems are motivated by the ones shared at:
 
@@ -25,30 +29,44 @@ Problems are motivated by the ones shared at:
 
 ## Table of Contents
 
-- [Numbers](https://github.com/karan/Projects#numbers)
-- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
-- [Graph](https://github.com/karan/Projects#graph)
-- [Data Structures](https://github.com/karan/Projects#data-structures)
-- [Text](https://github.com/karan/Projects#text)
-- [Networking](https://github.com/karan/Projects#networking)
-- [Classes](https://github.com/karan/Projects#classes)
-- [Threading](https://github.com/karan/Projects#threading)
-- [Web](https://github.com/karan/Projects#web)
-- [Files](https://github.com/karan/Projects#files)
-- [Databases](https://github.com/karan/Projects#databases)
-- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
-- [Security](https://github.com/karan/Projects#security)
+- [Numbers](https://github.com/mkenney/Projects#numbers)
+- [Classic Algorithms](https://github.com/mkenney/Projects#classic-algorithms)
+- [Graph](https://github.com/mkenney/Projects#graph)
+- [Data Structures](https://github.com/mkenney/Projects#data-structures)
+- [Text](https://github.com/mkenney/Projects#text)
+- [Networking](https://github.com/mkenney/Projects#networking)
+- [Classes](https://github.com/mkenney/Projects#classes)
+- [Threading](https://github.com/mkenney/Projects#threading)
+- [Web](https://github.com/mkenney/Projects#web)
+- [Files](https://github.com/mkenney/Projects#files)
+- [Databases](https://github.com/mkenney/Projects#databases)
+- [Graphics and Multimedia](https://github.com/mkenney/Projects#graphics-and-multimedia)
+- [Security](https://github.com/mkenney/Projects#security)
 
 Numbers
 ---------
 
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
+- [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Find_PI_to_the_Nth_Digit.py)
+
 **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
+- [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.js)
+- [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.php)
+- [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.pl)
+- [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.py)
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.sh)
+
 **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+
+- [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.js)
+- [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.php)
+- [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.pl)
+- [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.py)
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.sh)
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
@@ -173,7 +191,7 @@ Classes
 **Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
 
 **Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
-After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
+After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees.
 
 **Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
 
