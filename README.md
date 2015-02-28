@@ -1,4 +1,4 @@
-_This looks like fun so I'm going to try knocking out a few in a bunch of diffferent languages - MK_
+_**This looks like fun so I'm going to try knocking out a few in a bunch of diffferent languages - MK**_
 
 Mega Project List
 ========
@@ -110,6 +110,10 @@ Classic Algorithms
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
+
+- Merge Sort
+  - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Classic_Algorithms/Sort_Merge.py)
+  - [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Classic_Algorithms/Sort_Merge.lisp)
 
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
