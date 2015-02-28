@@ -19,10 +19,7 @@
 					(if (eq (gethash (intern word) counts) nil)
 						(setf (gethash (intern word) counts) 1)
 					; else
-						(setf (gethash (intern word) counts) (+ 1 (gethash (intern word) counts)))
-					)
-				)
-		)
+						(setf (gethash (intern word) counts) (+ 1 (gethash (intern word) counts))))))
 
 		(loop for key being the hash-keys of counts
 			using (hash-value value)
@@ -84,6 +81,4 @@
 				)
 			; else
 				(setq strs (split '(#\space) (string-downcase str))))
-			;(print str)
-			(print-word-count strs)
-)))
+			(print-word-count strs))))
