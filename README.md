@@ -3,24 +3,17 @@ _**This looks like fun so I'm going to try knocking out a few in a bunch of diff
 Mega Project List
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/themkenneygoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/themkenneygoel/Projects-Solutions)).
 
-To get started, simply fork this repo.
+## [Solutions](https://github.com/karan/Projects-Solutions)
 
-## [CONTRIBUTING](https://github.com/themkenneygoel/Projects/blob/master/CONTRIBUTING.md)
+Other solutions are located at [https://github.com/karan/Projects-Solutions](https://github.com/karan/Projects-Solutions)
 
-See ways of [contributing](https://github.com/themkenneygoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/themkenneygoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
-
-
-## [Solutions](https://github.com/themkenneygoel/Projects-Solutions)
-
-You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/themkenneygoel/Projects-Solutions).
-
-I put links my solutions below or you can look in the [solutions/](https://github.com/mkenney/Projects/tree/master/solutions) folder - MK
+I put links to my solutions below or you can look in the [solutions/](https://github.com/mkenney/Projects/tree/master/solutions) folder - MK
 
 ## Credits
 
-This repo was compiled by [mkenney Goel](http://twitter.com/mkenneygoel).
+This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
 
 Problems are motivated by the ones shared at:
 
