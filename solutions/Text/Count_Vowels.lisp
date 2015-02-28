@@ -8,10 +8,10 @@
 
 (defun print-vowel-count (str)
 	(let (
-		(vowels (list #\a #\e #\i #\o #\u #\y)) ; because coerce returns a list of symbols...
-		(counts (make-hash-table)))
+        (vowels (list #\a #\e #\i #\o #\u #\y)) ; because coerce returns a list of symbols...
+        (counts (make-hash-table)))
 
-		(setq str (coerce str 'list))
+        (setq str (coerce str 'list)) ; Split str into a list of symbols
 		(loop for vowel in vowels do
 			(setf (gethash vowel counts) 0))
 
