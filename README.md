@@ -105,8 +105,8 @@ Classic Algorithms
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
 - Merge Sort
-  - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Classic_Algorithms/Sort_Merge.py)
   - [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Classic_Algorithms/Sort_Merge.lisp)
+  - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Classic_Algorithms/Sort_Merge.py)
 
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
