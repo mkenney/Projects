@@ -31,10 +31,10 @@
 (let ((arr nil))
 	(loop
 		(format t "Enter a value add it to the list of values ('s' to sort current values, 'q' to quit): ")
-		(let ((userval (read-line t)))
-			(if (string= "q" userval)
+		(let ((item (read-line t)))
+			(if (string= "q" item)
 				(return))
-			(if (string= "s" userval)
+			(if (string= "s" item)
 				(progn
 					(setq arr (merge-sort arr))
 					(format t "~{~A~^, ~}~%~%" arr)
@@ -42,4 +42,4 @@
 				)
 
 			; else
-				(push userval arr)))))
+				(push item arr)))))
