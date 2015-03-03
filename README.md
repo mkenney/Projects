@@ -139,6 +139,7 @@ Text
 
 **Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
+- [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.lisp)
 - [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.js)
 - [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.php)
 - [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.pl)
