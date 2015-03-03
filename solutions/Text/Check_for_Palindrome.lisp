@@ -23,7 +23,8 @@
 
 
 ;;;
-;;; Continuous loop that promps for options and prints the encoded or decoded word.
+;;; Continuous loop that promps for a word and returns whether it is a palindrome
+;;; or not
 ;;;
 (loop
 	(let ((word "") (result nil))
