@@ -9,8 +9,8 @@
 
 (defun fact-recurse (num)
 	(if (> 2 num) (return-from fact-recurse 1))
-	(return-from fact-recurse (* num (fact-recurse (- num 1))))
-)
+	(return-from fact-recurse (* num (fact-recurse (- num 1)))))
+
 
 (defun fact-loop (num)
 	(let ((ret-val num))
@@ -18,8 +18,7 @@
 			(setq ret-val 1)
 			(loop for a from 2 to num do
 				(setq ret-val (* ret-val (- a 1)))))
-		(return-from fact-loop ret-val))
-)
+		(return-from fact-loop ret-val)))
 
 
 ;;;
