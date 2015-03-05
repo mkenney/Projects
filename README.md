@@ -41,6 +41,10 @@ Numbers
 
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
+- [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Find_PI_to_the_Nth_Digit.lisp)
+  - Ended up trying a couple different versions of the Spigot Algorithm for Pi
+- [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Find_PI_to_the_Nth_Digit.js)
+  - Direct port of the fastest version from the Lisp code.  It's an order of magnitude faster in Node which makes me think I'm doing something wrong in Lisp.
 - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Find_PI_to_the_Nth_Digit.py)
 
 **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
