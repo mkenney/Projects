@@ -39,9 +39,11 @@ else:
 Calculation of the Digits of Pi by the Spigot Algorithm of Rabinowitz and Wagon
 http://www.mathpropress.com/stan/bibliography/spigot.pdf
 
+This is the Horner form described on http://www.cut-the-knot.org/Curriculum/Algorithms/SpigotForPi.shtml#Horner
+
 Pi/2 = 1 + (1/3) + ((1 * 2)/(3 * 5)) + ((1 * 2 * 3)/(3 * 5 * 7)) + ((1 * 2 * 3 * 4)/(3 * 5 * 7 * 9)) ...
 
-50 iterations produces Pi accurate to 15 decimal places
+51 iterations produces Pi accurate to 15 decimal places
 """
 def calcPiSpigot(iterations):
 	vals = []
