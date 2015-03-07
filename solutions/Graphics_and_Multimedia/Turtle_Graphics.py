@@ -7,18 +7,25 @@ various commands you tell a turtle to draw a line on the floor. You have move
 forward, left or right, lift or drop pen etc. Do a search online for "Turtle
 Graphics" for more information. Optional: Allow the program to read in the list
 of commands from a file.
+
+Rough implementation of the turtle package.  There is no rotate functionality,
+only 90 degree turns (up, right, down, left). If I get bored I might do a full
+object-oriented implementation.
 """
-# This is my first python class ever and my first GUI ever :)
+
 
 from Tkinter import *
+import tkMessageBox
 import sys
 
 class App:
 
 	def __init__(self, size):
 
+		grid_size = 100
+
 		self.size = size
-		self.step_size = size / 20;
+		self.step_size = size / grid_size;
 		self.center = [size / 2, size / 2]
 		self.path = [list(self.center)]
 		self.position = list(self.center)
@@ -27,6 +34,12 @@ class App:
 
 	def create_canvas(self):
 		self.root = Tk()
+		self.root.title("Turtle Graphics")
+
+		def rootcallback():
+			if tkMessageBox.askokcancel("Quit", "Do you really wish to quit?"):
+				self.root.destroy()
+		self.root.protocol("WM_DELETE_WINDOW", rootcallback)
 
 		self.canvas = Canvas(self.root, width = self.size, height = self.size)
 		self.canvas.bind("<Up>", self.move_up)
@@ -38,11 +51,12 @@ class App:
 		# The canvas has to have focus to catch the keyboard events
 		self.canvas.focus_set()
 
-		# draw some grid points
+		# draw some centered grid points
 		for a in range(0, self.size, self.step_size):
 			for b in range(0, self.size, self.step_size):
-				self.canvas.create_line(a, b - 1, a, b + 1)
-				self.canvas.create_line(a + 1, b - 1, a + 1, b + 1)
+				self.canvas.create_line(a - 1, b - 1, a + 1, b - 1)
+				self.canvas.create_line(a - 1, b, a + 1, b)
+				self.canvas.create_line(a - 1, b + 1, a + 1, b + 1)
 
 	def move_up(self, event = None):
 		self.move('up')
@@ -102,21 +116,22 @@ class App:
 						self.move_down()
 					elif 'r' == command:
 						self.move_right()
-					self.root.after(250, next_command)
+					self.root.after(100, next_command)
 				except:
 					pass
 
-			self.root.after(250, next_command)
+			self.root.after(100, next_command)
 
 		self.root.mainloop()
 
 	def quit(self):
 		self.root.destroy();
 
-app = App(400)
+app = App(800)
 
 if (len(sys.argv) < 2):
 	app.run()
+
 else:
 	txt = open(sys.argv[1])
 	app.run(txt.read())
