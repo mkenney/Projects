@@ -8,7 +8,6 @@
 
 use strict;
 use warnings;
-use Data::Dumper qw(Dumper);
 my ($iterations) = @ARGV;
 if (!$iterations) {
 	print "How many Fibonacci numbers do you want? ";
@@ -24,3 +23,4 @@ for ($a = 0; $a < $iterations; $a++) {
 	$cur = $cur + $last;
 	$last = $tmp;
 }
+
