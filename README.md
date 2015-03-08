@@ -51,22 +51,25 @@ Numbers
 
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.sh)
 - [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.lisp)
 - [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.js)
 - [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.php)
 - [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.pl)
 - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.py)
-- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Fibonacci_Sequence.sh)
 
 **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.sh)
 - [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.js)
 - [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.php)
 - [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.pl)
 - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.py)
-- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Prime_Factorization.sh)
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Next_Prime_Number.sh)
+- [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Numbers/Next_Prime_Number.lisp)
 
 **Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
@@ -146,12 +149,12 @@ Text
 
 **Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
+- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.sh)
 - [Common Lisp](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.lisp)
 - [NodeJs](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.js)
 - [PHP](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.php)
 - [Perl](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.pl)
 - [Python](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.py)
-- [Bourne shell](https://github.com/mkenney/Projects/blob/master/solutions/Text/Fizz_Buzz.sh)
 
 **Reverse a String** - Enter a string and the program will reverse it and print it out.
 
