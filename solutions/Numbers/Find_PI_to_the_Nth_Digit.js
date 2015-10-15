@@ -57,8 +57,9 @@ function calc_pi_spigot_v4( digits ) {
 			quotient = Math.floor(quotient / divisor);
 			divisor = divisor - 1;
 			inner_key = inner_key - 1;
-			if (inner_key != 0)
+			if (inner_key != 0) {
 				quotient = quotient * inner_key;
+			}
 		}
 		outer_key = outer_key - 14;
 
